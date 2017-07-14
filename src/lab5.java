@@ -23,6 +23,7 @@ public class lab5
 
         while (loop2 == 0) {
             loop1 = 0;
+            sum = 0;
             while (loop1 == 0) {
 
 
@@ -39,18 +40,18 @@ public class lab5
                 }
 
             }
-            System.out.printf("A %s sided die is rolled two times...", dieSides);
+            System.out.printf("\nA %s sided die is rolled two times...", dieSides);
             for (j = 0; j < 2; j++) {
                 n = roll(dieSides) + 1;
                 sum = sum + n;
                 System.out.print(n + "\t");
             }
-            System.out.printf("The total: %s\n", sum);
+            System.out.printf("\nThe total: %s\n", sum);
             loop3 = 0;
 
             while (loop3 == 0) {
                 //scnr.nextInt();
-                System.out.print("Would you like to continue? (Type Yes or No): ");
+                System.out.print("\nWould you like to continue? (Type Yes or No): ");
 
                 fin = scnr.next();
 
@@ -64,7 +65,7 @@ public class lab5
                 }
             }
         }
-        System.out.println("Good Bye.");
+        System.out.println("\nGood Bye.");
 
 
     }
