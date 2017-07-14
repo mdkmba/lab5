@@ -46,7 +46,7 @@ public class lab5
                 sum = sum + n;
                 System.out.print(n + "\t");
             }
-            System.out.printf("\nThe total: %s\n", sum);
+            System.out.printf("The total: %s\n", sum);
             loop3 = 0;
 
             while (loop3 == 0) {
